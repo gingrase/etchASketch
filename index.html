@@ -1,0 +1,31 @@
+<html>
+<head>
+    <link rel="stylesheet" href="./style.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <div id="menuContainer">
+        <button id="resetButton">Reset</button>
+        <button id="drawButton">Draw</button>
+        <button id="eraseButton">Erase</button>
+        <button id="shadesButton">Shades</button>
+        <button id="rainbowButton">Rainbow</button>
+    </div>
+
+    <div id="grid" class="grid">
+
+    </div>
+
+    <!--MODAL WINDOW-->>
+    <div id="modal" class="modal">
+        <div id="modalContainer" class="modalContainer">
+            <div class="sliderContainer">
+                <div id="closeButton" class="closeButton">&times;</div>
+                <p class="modalText">Size of the new grid sides...</p>
+                <input type="range" min="1" max="100" value="16" id="newGridSizeSlider" class="slider">
+                <div id="newGridSizeText" class="newGridSizeText"></div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
